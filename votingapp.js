@@ -1,3 +1,4 @@
+const web3 = require('web3')
 class VotingDApp {
   constructor(contractAddress, abi) {
     this.web3 = new Web3(window.ethereum);
